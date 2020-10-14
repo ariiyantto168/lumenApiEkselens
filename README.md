@@ -1,0 +1,4 @@
+- git clone
+- composer install
+- change .env.example menjadi .env 
+- sesuaikan database nya di env
