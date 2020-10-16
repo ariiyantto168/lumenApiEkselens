@@ -59,3 +59,7 @@ $router->get('populers/{populers}','PopulersController@select_id');
 // careers
 $router->get('careers','CareersControlller@index');
 $router->get('careers/{careers}','CareersControlller@select_id');
+
+// newclass
+$router->get('newclass','NewclassController@index');
+$router->get('newclass/{newclass}','NewclassController@select_id');
